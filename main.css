@@ -3,12 +3,67 @@
   padding: 0;  
 }
 
-nav {
-    font-size: 20px;
-    display: flex;
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /*credit of image from subtle images.com*/
+  background-image: url('tiles.png');
+  background-size: contain;
+  padding-bottom: 10px;
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
+header img {
+  border: solid #c5c5c5;
+  margin-top: 5px;
+}
+
+header span {
+  font-family: 'Dancing Script', cursive;
+  font-size: 28px;
+}
+
+header a {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: #a0a0a0;
+  
+}
+
+header p {
+  font-family: 'EB Garamond', serif;
+
+}
+
+nav ul li a{
+  margin-right: 100px;
+  font-family: 'Dancing Script', cursive;;
+  color: #202020;
+  font-size: 28px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a span {
+  font-family: 'EB Garamond', serif;
+  font-size: 15px;
+  margin-left: 5px;
+  color: rgb(236, 228, 228);
+}
+
+main {
+  background-image: url('Beans_image.jpg');
+  margin: 0px;
+}
+
+main p {
+  font-family:'EB Garamond', serif;
+  font-size: 30px;
+  margin: 2px 2px;
+  text-align: center;
+  color: antiquewhite;
+
 }

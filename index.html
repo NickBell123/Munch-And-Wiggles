@@ -5,30 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
-
-
+    <!--Google Font links-->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:200,500|EB+Garamond:200,500&display=swap"
+        rel="stylesheet">
     <title>Munch & Wiggles</title>
 </head>
 
 <body>
+    <!--Logo and Telephone-->
+    <header>
+        <img src="Munch and wiggles.png" alt="Munch and wiggles logo" width="350" height="250">
+        <span>Oxshotts Coffee Shop</span>
 
-    <!--Navbar and Logo-->
-    <nav>
-        <div class="title-log"><img src="Much and wiggles.png" /></div>
+        <p> Opening times: </br> Monday - Friday 8am - 5pm </br>
+            Saturday 8am - 3pm </br>
+            Sunday 9am – 1pm</p>
+        <a href="#">Tel: 01372 231885</a>
+    </header>
 
-        <ul>
-            <li>Breakfest</li>
-            <li>Lunch</li>
-            <li>Sunday</li>
-            <li>Kids</li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collaspe navbar-collapse" id="navMenu">
+
+            <ul class="navbar-nav ml-auto mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Breakfast Menu<span>Served till 12:30</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">All Day Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sundays Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kids Menu</a>
+                </li>
+            </ul>
+        </div>
     </nav>
+
     <!--Splash Section-->
     <main>
-        <img src="Beans_image.jpg" alt="Coffee bean background" />
-    </main>
 
+        <p>The M&W family are proud to introduce their first venture to this wonderful village, showcasing the finest
+            coffee, bespoke made sandwiches plus special collaborations with well loved local brands.
+            We look forward to welcoming you to Munch & Wiggles.</p>
+
+    </main>
     <footer>
         <ul>
             <li>facebook</li>
@@ -36,6 +65,16 @@
             <li>Twitter</li>
         </ul>
     </footer>
+    <!--Bootstrap CDNs-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
