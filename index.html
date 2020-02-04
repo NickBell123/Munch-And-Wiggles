@@ -8,10 +8,11 @@
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
     <!--Google Font links-->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:200,500|EB+Garamond:200,500&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.js">
     <title>Munch & Wiggles</title>
 </head>
 
@@ -52,13 +53,25 @@
 
     <!--Splash Section-->
     <main>
-
-        <p>The M&W family are proud to introduce their first venture to this wonderful village, showcasing the finest
-            coffee, bespoke made sandwiches plus special collaborations with well loved local brands.
-            We look forward to welcoming you to Munch & Wiggles.</p>
-
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <section>
+            <p>The M&W family are proud to introduce their first venture to this wonderful village, showcasing the
+                finest
+                coffee, bespoke made sandwiches plus special collaborations with well loved local brands.
+                We look forward to welcoming you to Munch & Wiggles.</p>
+        </section>
+        
     </main>
     <footer>
+        <div id="map"></div>
         <ul>
             <li>facebook</li>
             <li>insta</li>
@@ -75,6 +88,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXqgvxHlO7uU6jgOoC62RrptGnScK93Eo&callback=initMap">
+    </script>
 </body>
 
 </html>

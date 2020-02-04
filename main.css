@@ -1,6 +1,6 @@
-*{
+* {
   margin: 0;
-  padding: 0;  
+  padding: 0;
 }
 
 header {
@@ -29,17 +29,16 @@ header a {
   font-family: 'EB Garamond', serif;
   font-size: 20px;
   color: #a0a0a0;
-  
 }
 
 header p {
   font-family: 'EB Garamond', serif;
-
 }
 
-nav ul li a{
+nav ul li a {
   margin-right: 100px;
-  font-family: 'Dancing Script', cursive;;
+  font-family: 'Dancing Script', cursive;
+  ;
   color: #202020;
   font-size: 28px;
   font-weight: bolder;
@@ -59,11 +58,14 @@ main {
   margin: 0px;
 }
 
-main p {
-  font-family:'EB Garamond', serif;
+main section p {
+  font-family: 'EB Garamond', serif;
   font-size: 30px;
   margin: 2px 2px;
   text-align: center;
   color: antiquewhite;
+}
 
+div#map {
+  min-height: 360px;
 }
