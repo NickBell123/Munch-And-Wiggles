@@ -68,4 +68,5 @@ main section p {
 
 div#map {
   min-height: 360px;
+  max-width: 360px;
 }
